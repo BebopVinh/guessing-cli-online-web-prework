@@ -31,7 +31,5 @@ def run_guessing_game
       puts "The computer guessed #{rand_i}."
     end
   end
-
   puts "Goodbye!".chomp
-
 end
