@@ -8,9 +8,13 @@ def run_guessing_game
 
   if u_input == "exit"
     puts "Goodbye!".chomp
-  elsif u_input == rand_i.to_s
-    puts "You guessed the correct number!"
   else
-    puts "The computer guessed #{rand_i}."
+    until u_input == "exit"  
+      if u_input == rand_i.to_s
+        puts "You guessed the correct number!"
+      else
+        puts "The computer guessed #{rand_i}."
+      end
+    end
   end
 end
