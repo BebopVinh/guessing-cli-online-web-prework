@@ -1,6 +1,3 @@
-# Code your solution here!
-require 'pry'
-
 def run_guessing_game
   u_input = ""
   until u_input == "exit"
